@@ -1,0 +1,133 @@
+:root {
+  --background-body-color: white;
+}
+
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+p{
+    font-size: 1.2rem;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  font-size: 1.5rem !important;
+  color: black;
+}
+
+body {
+  background-color: var(--background-body-color);
+}
+
+header {
+  width: 100%;
+}
+main {
+  margin: 0 30px;
+}
+footer {
+  margin: 0 30px;
+}
+.top_header {
+}
+.header_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.5rem;
+}
+.navbar {
+  box-shadow: 0 5px 4px rgba(0, 0, 0, 0.1);
+}
+.offcanvas-body .navbar-nav .nav-item:hover {
+  background-color: hotpink;
+  border-radius: 10px;
+  width: 100%;
+  color: black;
+}
+
+.card {
+  border: none;
+}
+.card .card-body .card-title {
+  font-size: 2rem !important;
+  padding-bottom: 20px;
+}
+.food_section .food_img img {
+  height: auto;
+  object-fit: cover;
+}
+
+.pagination .page-item a {
+  color: black !important;
+}
+.pagination .active1 a {
+  background-color: black !important;
+  color: white !important;
+}
+.pagination .page-item:hover a {
+  background-color: black !important;
+  color: white !important;
+}
+.about_section .heading h3 {
+  font-size: 2rem;
+}
+.about_section .about_text h4 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.about_img img {
+  width: 78%;
+  height: auto;
+}
+
+.footer h1 {
+  font-size: 2rem;
+  padding-bottom: 20px;
+}
+.footer .mgrahul a {
+  font-size: 1rem !important;
+  text-decoration: underline;
+  color: rgb(64, 102, 6);
+}
+
+.footer .img_body {
+  padding: 15px 20px;
+}
+.footer .img_body img {
+  width: 60px;
+  height: 60px;
+}
+.footer .img_body:hover {
+  z-index: 111;
+  background-color: rgb(190, 179, 179);
+}
+
+.footer .tag_link a {
+    display: inline-block;
+  font-size: 1rem !important;
+  background-color: gray;
+  color: white;
+  padding: 5px;
+  margin: 3px;
+}
+.footer .tag_link .active2 {
+  background-color: black;
+}
